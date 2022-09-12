@@ -449,7 +449,7 @@ section .titles{
 
 
 .parallaxActuellement {
-    background: url(../img/parallaxActuellement.jpg);
+    background: url(../img/parallaxActuellement.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -603,16 +603,16 @@ section .titles{
 /* QUOTE */
 
 .parallaxQuote::before{
-    background: url(../img/parallaxQuote.jpg);
+    background: url(../img/parallaxQuote.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 30vh;
     width: 100vw;
     position: absolute;
-    content: '';
     z-index: -5;
+    content: '';
 
     text-align: center;
     display: flex;
@@ -622,7 +622,7 @@ section .titles{
 }
 
 .wrapper-quote{
-    height: 100vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -834,7 +834,7 @@ p.active{
 
 .port-mobile{
     display: none;
-}
+}  
 
 /* CONTACT */
 
@@ -954,7 +954,7 @@ footer img{
 .reveal-quote,
 .reveal-portfolio,
 .reveal-contact{
-    opacity: 0;
+    /* opacity: 0; */
     transition: all ease 1s;
 }
 
