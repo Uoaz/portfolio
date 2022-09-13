@@ -1182,13 +1182,12 @@ footer img{
     .about .container-pdp3 img{
         width: 15rem;   
         bottom: 4rem;
-        /* z-index: -5; */
         right: 1rem;
     }
 
     .container-about{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         padding: 0;
         margin-right: 0;
         text-align: center;
@@ -1254,6 +1253,13 @@ footer img{
     .social-animation a{
 
         z-index: 0;
+    }
+
+    .container-about iframe {
+        width: 25rem;
+        height: 15rem;
+        border-radius: 20px;
+        box-shadow: 5px 5px 20px black;
     }
 
     
