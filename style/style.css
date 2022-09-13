@@ -1256,10 +1256,8 @@ footer img{
     }
 
     .container-about iframe {
-        width: 25rem;
+        width: 20rem;
         height: 15rem;
-        border-radius: 20px;
-        box-shadow: 5px 5px 20px black;
     }
 
     
